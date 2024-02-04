@@ -23,7 +23,7 @@ function start() {
 
   window.onload = () => {
     document.querySelector(".music").play();
-    document.querySelector(".music").volume = 4;
+    document.querySelector(".music").volume = 0;
   };
   window.onkeypress = (e) => {
     if (e.charCode === 32) {
